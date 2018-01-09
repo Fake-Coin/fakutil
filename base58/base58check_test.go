@@ -7,7 +7,7 @@ package base58_test
 import (
 	"testing"
 
-	"github.com/ltcsuite/ltcutil/base58"
+	"fakco.in/fakutil/base58"
 )
 
 var checkEncodingStringTests = []struct {

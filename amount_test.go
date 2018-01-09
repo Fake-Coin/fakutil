@@ -2,13 +2,13 @@
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
-package ltcutil_test
+package fakutil_test
 
 import (
 	"math"
 	"testing"
 
-	. "github.com/ltcsuite/ltcutil"
+	. "fakco.in/fakutil"
 )
 
 func TestAmountCreation(t *testing.T) {

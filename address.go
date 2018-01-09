@@ -2,7 +2,7 @@
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
-package ltcutil
+package fakutil
 
 import (
 	"bytes"
@@ -11,11 +11,11 @@ import (
 	"fmt"
 	"strings"
 
+	"fakco.in/fakd/btcec"
+	"fakco.in/fakd/chaincfg"
+	"fakco.in/fakutil/base58"
+	"fakco.in/fakutil/bech32"
 	"github.com/btcsuite/golangcrypto/ripemd160"
-	"github.com/ltcsuite/ltcd/btcec"
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcutil/base58"
-	"github.com/ltcsuite/ltcutil/bech32"
 )
 
 // UnsupportedWitnessVerError describes an error where a segwit address being

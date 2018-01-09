@@ -7,8 +7,8 @@ package hdkeychain_test
 import (
 	"fmt"
 
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcutil/hdkeychain"
+	"fakco.in/fakd/chaincfg"
+	"fakco.in/fakutil/hdkeychain"
 )
 
 // This example demonstrates how to generate a cryptographically random seed

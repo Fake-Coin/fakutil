@@ -5,7 +5,7 @@ coinset
 (https://travis-ci.org/ltcsuite/ltcutil) [![ISC License]
 (http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 [![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg)]
-(http://godoc.org/github.com/ltcsuite/ltcutil/coinset)
+(http://godoc.org/fakco.in/fakutil/coinset)
 
 Package coinset provides litecoin-specific convenience functions for selecting
 from and managing sets of unspent transaction outpoints (UTXOs).
@@ -18,7 +18,7 @@ report.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/ltcsuite/ltcutil/coinset
+$ go get -u fakco.in/fakutil/coinset
 ```
 
 ## Usage

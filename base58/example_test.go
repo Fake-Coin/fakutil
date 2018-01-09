@@ -7,7 +7,7 @@ package base58_test
 import (
 	"fmt"
 
-	"github.com/ltcsuite/ltcutil/base58"
+	"fakco.in/fakutil/base58"
 )
 
 // This example demonstrates how to decode modified base58 encoded data.

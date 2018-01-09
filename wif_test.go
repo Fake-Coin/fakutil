@@ -2,14 +2,14 @@
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
-package ltcutil_test
+package fakutil_test
 
 import (
 	"testing"
 
-	"github.com/ltcsuite/ltcd/btcec"
-	"github.com/ltcsuite/ltcd/chaincfg"
-	. "github.com/ltcsuite/ltcutil"
+	"fakco.in/fakd/btcec"
+	"fakco.in/fakd/chaincfg"
+	. "fakco.in/fakutil"
 )
 
 func TestEncodeDecodeWIF(t *testing.T) {

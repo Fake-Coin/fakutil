@@ -9,12 +9,12 @@ cases which are either not possible or can't reliably be tested via the public
 interface. The functions are only exported while the tests are being run.
 */
 
-package ltcutil
+package fakutil
 
 import (
 	"github.com/Roasbeef/ltcutil/bech32"
-	"github.com/ltcsuite/ltcd/btcec"
-	"github.com/ltcsuite/ltcutil/base58"
+	"fakco.in/fakd/btcec"
+	"fakco.in/fakutil/base58"
 	"golang.org/x/crypto/ripemd160"
 )
 

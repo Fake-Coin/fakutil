@@ -1,12 +1,12 @@
 ltcutil
 =======
 
-[![Build Status](http://img.shields.io/travis/ltcsuite/ltcutil.svg)](https://travis-ci.org/ltcsuite/ltcutil) 
-[![Coverage Status](http://img.shields.io/coveralls/ltcsuite/ltcutil.svg)](https://coveralls.io/r/ltcsuite/ltcutil?branch=master) 
+[![Build Status](http://img.shields.io/travis/ltcsuite/fakutil.svg)](https://travis-ci.org/ltcsuite/ltcutil) 
+[![Coverage Status](http://img.shields.io/coveralls/ltcsuite/fakutil.svg)](https://coveralls.io/r/ltcsuite/ltcutil?branch=master) 
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/ltcsuite/ltcutil)
+[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/fakco.in/fakutil)
 
-Package ltcutil provides litecoin-specific convenience functions and types.
+package fakutil provides litecoin-specific convenience functions and types.
 A comprehensive suite of tests is provided to ensure proper functionality.  See
 `test_coverage.txt` for the gocov coverage report.  Alternatively, if you are
 running a POSIX OS, you can run the `cov_report.sh` script for a real-time
@@ -21,10 +21,10 @@ functionality provided.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/ltcsuite/ltcutil
+$ go get -u fakco.in/fakutil
 ```
 
 ## License
 
-Package ltcutil is licensed under the [copyfree](http://copyfree.org) ISC
+package fakutil is licensed under the [copyfree](http://copyfree.org) ISC
 License.
